@@ -9,7 +9,14 @@ class Slade < Formula
   depends_on "freeimage"
   depends_on "ftgl"
   depends_on "sfml"
-  depends_on "wxmac"
+  
+  #
+  # NOTE: Cannot use default wxWidgets formula at the moment
+  #       because of disabled mediactrl library for 64-bit target
+  #
+
+  # depends_on "wxmac"
+  depends_on "wxwidgets-slade"
 
   def install
     system "cmake", ".", *std_cmake_args
