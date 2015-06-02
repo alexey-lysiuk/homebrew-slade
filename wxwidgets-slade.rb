@@ -23,6 +23,8 @@ class WxwidgetsSlade < Formula
   option "with-stl", "use standard C++ classes for everything"
   option "with-static", "build static libraries"
 
+  conflicts_with "wxmac"
+
   def install
     args = [
       "--disable-debug",
