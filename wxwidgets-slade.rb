@@ -3,10 +3,11 @@
 # https://github.com/Homebrew/homebrew/commit/fea99c61c7e1bd7dc3e5e7b3dd05cb18b84090c6
 #
 # Changes are:
-#  * Mediactrl library is enabled
-#  * Universal binary is disabled
-#  * HEAD only
-#  * Bottles are removed
+#  * Mediactrl library was enabled
+#  * Universal binary was disabled
+#  * Formula was converted to HEAD only
+#  * Patches were removed
+#  * Bottles were removed
 #  
 
 require "formula"
