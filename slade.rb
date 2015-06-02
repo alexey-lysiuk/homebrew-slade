@@ -1,7 +1,7 @@
 require "formula"
 
 class Slade < Formula
-  desc "SLADE It's a Doom editor"
+  desc "SLADE is a modern editor for Doom-engine based games and source ports"
   homepage "http://slade.mancubus.net/"
   head "https://github.com/sirjuddington/SLADE.git"
 
