@@ -1,6 +1,7 @@
 require "formula"
 
 class Slade < Formula
+  desc "SLADE It's a Doom editor"
   homepage "http://slade.mancubus.net/"
   head "https://github.com/sirjuddington/SLADE.git"
 
