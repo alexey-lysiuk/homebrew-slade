@@ -22,5 +22,10 @@ class Slade < Formula
   def install
     system "cmake", ".", *std_cmake_args
     system "make"
+    prefix.install "SLADE.app"
+  end
+  
+  def caveats
+    "SLADE.app installed to #{prefix}"
   end
 end
