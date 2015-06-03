@@ -1,6 +1,12 @@
 ## SLADE with Homebrew
 Install [SLADE](http://slade.mancubus.net/) Doom Editor with [Homebrew](http://brew.sh/).
 
+### Prerequisites
+
+This guide assumes that you are using the recent version of **OS X**, like **Mavericks** or **Yosemite**. Particular combination of older versions of OS and development tools may require additional actions.  
+The earliest supported version of **OS X** is **Lion**.  
+For instance, some versions of **Xcode** don't install **Command Line Tools** by default. You need to configure it by hand.
+
 ### How to install
 
 Start from the fourth step if you already have **Homebrew** installed. But first, check the [important note](#important-note-for-homebrew-users) below.
