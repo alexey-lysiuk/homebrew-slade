@@ -3,7 +3,7 @@ Install [SLADE](http://slade.mancubus.net/) Doom Editor with [Homebrew](http://b
 
 ### How to install
 
-Start from the fourth step if you already have **Homebrew** installed. But first, check the [important note][#important-note-for-homebrew-users] below.
+Start from the fourth step if you already have **Homebrew** installed. But first, check the [important note](#important-note-for-homebrew-users) below.
 
 1. Install **Xcode** from **Mac App Store**. If you have a developer account, you can also install it from [Apple Developer](https://developer.apple.com/downloads/) website.
 2. Start **Xcode**, accept its license agreement and enter your password to finalize the installation process.
