@@ -20,4 +20,7 @@ Start from the fourth step if you already have **Homebrew** installed. But first
 At the moment of writting, [wxWidgets](https://www.wxwidgets.org/) formula cannot be used to build **SLADE**. Use `brew info wxmac` command to check the status of **wxWidgets**. If it's installed, you need to execute `brew unlink wxmac` command, because **SLADE** installation will fail otherwise. Hopefully, this will be fixed with the next release of **wxWidgets**.
 
 ### How to update
-_TODO_
+
+1. Start **Terminal.app**.
+2. Execute `brew update` command to update **Homebrew** to the latest version.
+3. Execute `brew upgrade slade` command to update **SLADE** to the latest version.
