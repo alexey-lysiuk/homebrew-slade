@@ -1,7 +1,7 @@
 ## SLADE with Homebrew
 Install [SLADE](http://slade.mancubus.net/) Doom Editor with [Homebrew](http://brew.sh/).
 
-### How to build
+### How to install
 Skip first three steps if you already have **Homebrew** installed.  
 At the moment of writting, [wxWidgets](https://www.wxwidgets.org/) formula cannot be used to build **SLADE**. Use `brew info wxmac` command to check a status of **wxWidgets**. If this formula is already installed, you need to execute `brew unlink wxmac` command, because **SLADE** installation will fail otherwise.
 
@@ -12,5 +12,8 @@ At the moment of writting, [wxWidgets](https://www.wxwidgets.org/) formula canno
 5. Execute `brew doctor` command to verify **Homebrew** operation. It should output something like `Your system is ready to brew.` If it's not the case, carefully read messages and follow proposed actions.
 6. Execute `brew tap alexey-lysiuk/slade` command to add **SLADE** formula.
 7. Execute `brew install --HEAD slade` command to install **SLADE**. This step will take a while.
+8. Execute `brew linkapps slade` command to add **SLADE** to Applications folder.
+9. Start **SLADE** from the Launchpad or directly from Applications folder.
 
-TODO: location of application bundle
+### How to update
+_TODO_
