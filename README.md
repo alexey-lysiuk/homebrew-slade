@@ -27,6 +27,22 @@ Start from the fourth step if you already have **Homebrew** installed. But first
 2. Execute `brew update` command to update **Homebrew** to the latest version.
 3. Execute `brew upgrade slade` command to update **SLADE** to the latest version.
 
+### Wait, I want to debug!
+
+Just a warning: _You must have some experience with **Xcode** and programming in general to do so_.
+
+1. Complete all installation steps.
+2. Clone **SLADE** [repository](https://github.com/sirjuddington/SLADE) using your favorite Git client or simply from the command line: `cd && git clone https://github.com/sirjuddington/SLADE.git`.
+3. Generate **XCode** project using **CMake.app**. Use **~/SLADE** as a source code path, and **~/SLADE/release** as a binaries path. Press **Configure** button, wait for process to finish, then press **Generate** button. If you don't have **CMake.app** installed, use `cd SLADE && mkdir release && cd release && cmake -GXcode ..` command.
+4. Open **XCode** project located in **SLADE/release** folder, from the **Finder** or by using `open SLADE.xcodeproj` command.
+5. Build and run **SLADE** by pressing `Command + R`.
+
+Next time, when you want to grab the latest **SLADE** source code, do the following:
+
+1. Pull from **SLADE** repository using your favorite Git client or use `cd ~/SLADE && git pull` command.
+2. Update **XCode** project using **CMake.app**, i.e. press **Configure**, wait, press **Generate**. Or from the command line: `cd release && cmake -GXcode ..`.
+3. Open **XCode** project and run as usual.
+
 ### Important note for Homebrew users
 
 At the moment of writting, [wxWidgets](https://www.wxwidgets.org/) formula cannot be used to build **SLADE**. Use `brew info wxmac` command to check the status of **wxWidgets**. If it's installed, you need to execute `brew unlink wxmac` command, because **SLADE** installation will fail otherwise. Hopefully, this will be fixed with the next release of **wxWidgets**.
