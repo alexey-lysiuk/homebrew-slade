@@ -1,5 +1,6 @@
 ## SLADE with Homebrew
-Install [SLADE](http://slade.mancubus.net/) Doom Editor with [Homebrew](http://brew.sh/).
+
+The following guide contains step-by-step instructions to install [SLADE](http://slade.mancubus.net/) Doom Editor using [Homebrew](http://brew.sh/) package manager. Also, it covers easy-to-use setup for **SLADE** development and debugging.
 
 ### Prerequisites
 
