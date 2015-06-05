@@ -46,3 +46,12 @@ Next time, when you want to grab the latest **SLADE** source code, do the follow
 ### Important note for Homebrew users
 
 At the moment of writting, [wxWidgets](https://www.wxwidgets.org/) formula cannot be used to build **SLADE**. Use `brew info wxmac` command to check the status of **wxWidgets**. If it's installed, you need to execute `brew unlink wxmac` command, because **SLADE** installation will fail otherwise. Hopefully, this will be fixed with the next release of **wxWidgets**.
+
+### Links
+
+* [SLADE Website](http://slade.mancubus.net/)
+* [SLADE Git Repository and Issues Tracker](https://github.com/sirjuddington/SLADE)
+* [Apple Developer Website](https://developer.apple.com/)
+* [Homebrew Website](http://brew.sh/)
+* [Homebrew Git Repository and Issues Tracker](https://github.com/Homebrew/homebrew)
+* [CMake Website](http://www.cmake.org/)
