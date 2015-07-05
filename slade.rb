@@ -3,6 +3,8 @@ require "formula"
 class Slade < Formula
   desc "SLADE is a modern editor for Doom-engine based games and source ports"
   homepage "http://slade.mancubus.net/"
+  url "https://github.com/sirjuddington/SLADE/archive/3.1.0.4.tar.gz"
+  sha256 "f643174975b2e7cd5c54be75a319a128f703231115f2ceba34ef0b9718d5fb8e"
   head "https://github.com/sirjuddington/SLADE.git"
 
   # SFML newer than 2.1 requires OS X 10.7
