@@ -18,7 +18,7 @@ Start from the fourth step if you already have **Homebrew** installed. But first
 4. Start **Terminal.app**.
 5. Execute `brew doctor` command to verify **Homebrew** operation. It should output something like `Your system is ready to brew.` If it's not the case, carefully read messages and follow proposed actions.
 6. Execute `brew tap alexey-lysiuk/slade` command to add **SLADE** formula.
-7. Execute `brew install --HEAD slade` command to install **SLADE**. This step will take a while.
+7. Execute `brew install slade` command to install the latest stable version of **SLADE**. This step will take a while. If you prefer a cutting-edge development version, use `brew install --HEAD slade` command instead.
 8. Execute `brew linkapps slade` command to add **SLADE** to Applications folder.
 9. Start **SLADE** from the Launchpad or directly from Applications folder.
 
