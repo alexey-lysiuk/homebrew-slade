@@ -15,6 +15,7 @@ class Slade < Formula
   depends_on "freeimage"
   depends_on "ftgl"
   depends_on "sfml"
+  depends_on "GLEW"
 
   #
   # NOTE: Cannot use default wxWidgets formula at the moment
@@ -25,7 +26,7 @@ class Slade < Formula
   depends_on "wxwidgets-slade"
 
   def install
-    system "cmake", ".", *std_cmake_args
+    system "cmake", "-DGLEW_INCLUDE_PATH=/usr/local/Cellar/glew/2.1.0/include", "-DGLEW_LIBRARY=/usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.dylib", ".", *std_cmake_args
     system "make"
     prefix.install "SLADE.app"
   end
